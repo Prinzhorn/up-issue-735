@@ -1,0 +1,13 @@
+{
+  "name": "up-issue-735",
+  "profile": "apex-up",
+  "regions": ["eu-central-1"],
+  "lambda": {
+    "memory": 512
+  },
+  "error_pages": {
+    "variables": {
+      "support_email": "support@example.com"
+    }
+  }
+}
